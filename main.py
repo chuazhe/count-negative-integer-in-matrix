@@ -18,7 +18,7 @@ b = 0
 countOfNegativeInteger = 0
 
 while a < rowCount and b < columnCount:
-    # >=0 : find the count of negative integer
+    # >=0 : find the count of negative integer, less than 0
     # It can also used to find the count of integer that is less than n. For example,
     # >20 : find the count of integer that is less than or equal to 20
     if matrix[a][b] >= 0:
